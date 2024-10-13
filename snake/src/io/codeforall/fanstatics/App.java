@@ -18,5 +18,6 @@ public class App {
         frame.add(snakeGame);
         // Puts jpanel inside the dimensions without the top
         frame.pack();
+        snakeGame.requestFocus();
     }
 }
